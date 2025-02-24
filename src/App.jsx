@@ -1,7 +1,7 @@
 import PersonalInformation from "./components/PersonalInformation"
 import EducationalExperience from './components/EducationalExperience'
 import ProfessionalExperience from './components/ProfessionalExperience'
-import './app.css'
+import './App.css'
 import { useState } from "react"
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
 
         <div className="inputSection">
           <PersonalInformation data={personalInformation} onChange={setPersonalInformation}/>
-          <EducationalExperience data={EducationalExperience} onChange={setEducationalExperience} />
+          <EducationalExperience data={educationalExperience} onChange={setEducationalExperience} />
           <ProfessionalExperience data={professionalExperience} onChange={setProfessionalExperience}/>
         </div>
 
