@@ -1,0 +1,193 @@
+.CV{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    justify-items: center;
+    align-items: center;
+}
+
+.inputSection{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 60px;
+    padding: 20px 40px;
+    width: 70%;
+    height: 90vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    
+    background-color: white;
+    color: #454545;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px #c5c4c4;
+}
+.cvCard{
+
+
+}
+
+.inputField{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4px;
+}
+.inputField label{
+    font-size: 16px;
+    align-self: flex-start;
+    font-weight: 500;
+    padding-left: 2px;
+}
+
+.inputField input{
+    font-size: 14px;
+    background-color: white;
+    padding: 12px 20px;
+    color: #454545;
+    border-radius: 8px;
+    border: 2px solid salmon;
+}
+
+.inputField input:focus{
+    outline: none;
+    border: 2px solid greenyellow;
+}
+
+.btn{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 15px 60px;
+    background-color: rgb(15, 118, 187);
+    border-radius: 8px;
+    border: 2px solid #454545;
+}
+
+
+
+/* General styles */
+.cvCard {
+
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 60px;
+    padding: 20px 40px;
+    width: 90%;
+    height: 90vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    
+    background-color: white;
+    color: #454545;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px #c5c4c4;
+  }
+  
+  /* Section styling */
+  .cvCard h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  .cvCard h3, .cvCard h5 {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .cvCard .contact p,
+  .cvCard .date p {
+    font-size: 16px;
+    color: #777;
+    margin: 3px 0;
+  }
+  
+  .cvCard .contact p, .cvCard .date p {
+    margin-left: 20px;
+  }
+  
+  /* Styling for Personal Information */
+  .personalInformation {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .personalInformation h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #222;
+  }
+
+  .personalInformation .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styling for Educational Experience */
+  .educationalExperience {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .educationalExperience h5 {
+    color: #4b4b4b;
+    font-weight: normal;
+  }
+  
+  .educationalExperience .date p {
+    color: #4b4b4b;
+  }
+  
+  /* Styling for Professional Experience */
+  .professionalExprience {
+    padding-bottom: 20px;
+  }
+  
+  .professionalExprience p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .professionalExprience .date p {
+    color: #333;
+  }
+  
+  /* Add some spacing between sections */
+  .cvCard > div {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .CV{
+        grid-template-columns: 1fr;
+    }
+    .cvCard {
+      width: 90%;
+    }
+  
+    .cvCard h2 {
+      font-size: 20px;
+    }
+  
+    .cvCard h3 {
+      font-size: 18px;
+    }
+  
+    .cvCard h5 {
+      font-size: 16px;
+    }
+  
+    .cvCard .contact p,
+    .cvCard .date p {
+      font-size: 14px;
+    }
+  }
+  
